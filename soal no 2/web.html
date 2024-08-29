@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belanja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Keranjang</a></li>
+                <li><a href="#">Akun</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo Belanja">
+        </div>
+    </header>
+    <main>
+        <section class="produk">
+            <header>
+                <h2>Produk Terbaru</h2>
+            </header>
+            <ul>
+                <li>
+                    <img src="baju1.jpg" alt="Produk 1">
+                    <h3>striped sweater</h3>
+                    <p>Sweater kekinian|Sweater oversize|sweater wanita</p>
+                    <p style="display: flex; align-items: center; justify-content: center;">
+                        <img src="keranjang.jpg" alt="Keranjang" style="width: 24px; height: 24px; margin-right: 5px;">
+                        400
+                    </p>
+                    <p style="display: flex; align-items: center; justify-content: center;">
+                        <img src="luv.jpg" alt="Love" style="width: 24px; height: 24px; margin-right: 5px;">
+                        1000
+                    </p>
+                    <button>Read More</button>
+                </li>
+                <li>
+                    <img src="baju2.jpg" alt="Produk 2">
+                    <h3>Star moon sweater</h3>
+                    <p>Star moon sweater|Sweater kekinian|sweater wanita</p>
+                    <p style="display: flex; align-items: center; justify-content: center;">
+                        <img src="keranjang.jpg" alt="Keranjang" style="width: 24px; height: 24px; margin-right: 5px;">
+                        600
+                    </p>
+                    <p style="display: flex; align-items: center; justify-content: center;">
+                        <img src="luv.jpg" alt="Love" style="width: 24px; height: 24px; margin-right: 5px;">
+                        1400
+                    </p>
+                    <button>Read More</button>
+                </li>
+                <li>
+                    <img src="baju3.jpg" alt="Produk 3">
+                    <h3>cute cloud sweater</h3>
+                    <p>cute cloud sweater|Sweater Kekinian|Sweater wanita</p>
+                    <p style="display: flex; align-items: center; justify-content: center;">
+                        <img src="keranjang.jpg" alt="Keranjang" style="width: 24px; height: 24px; margin-right: 5px;">
+                        800
+                    </p>
+                    <p style="display: flex; align-items: center; justify-content: center;">
+                        <img src="luv.jpg" alt="Love" style="width: 24px; height: 24px; margin-right: 5px;">
+                        2050
+                    </p>
+                    <button>Read More</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #6495ED;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .logo {
+            margin: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .produk {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .produk header {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .produk ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .produk li {
+            margin: 20px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .produk img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .produk h3 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .produk p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #E9967A;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #E9967A;
+        }
+    </style>
+</body>
+</html>
